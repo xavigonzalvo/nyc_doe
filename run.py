@@ -62,7 +62,7 @@ try:
     time.sleep(1)
 
     driver.find_element_by_xpath(
-        '//*[@id="questions_layout"]/div[5]/div[1]/button').click()
+        '//*[@id="questions_layout"]/div[6]/div[1]/button').click()
 
 except Exception as e:
     print("Error", e)
